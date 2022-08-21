@@ -1,14 +1,15 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  mode: 'jit',
-  content: [
-    './src/**/*.tsx',
-    './public/index.html',
-  ],
+  mode: "jit",
+  content: ["./src/**/*.tsx", "./public/index.html"],
   theme: {
     extend: {
       colors: {
+        ape: {
+          pink: "#be3d55",
+        },
+
         // General
         page: {
           from_bg: colors.slate[100],
@@ -71,7 +72,7 @@ module.exports = {
           focus_border: colors.violet[300],
           placeholder_txt: colors.violet[600],
         },
-        
+
         // Whitelist proof widget
         wl_message: {
           txt: colors.slate[800],
