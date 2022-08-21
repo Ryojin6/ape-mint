@@ -13,7 +13,7 @@ module.exports = {
         // General
         page: {
           from_bg: colors.slate[100],
-          to_bg: colors.slate[200],
+          to_bg: colors.slate[300],
         },
         titles: colors.violet[900],
         links: {
